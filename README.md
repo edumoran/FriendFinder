@@ -1,7 +1,17 @@
-# Friend Finder - Node and Express Servers
+# The Friend Finder - Node and Express Servers
 
-### Overview
+### How this works:
 
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+This app allows the user to take a short survey, After completing and submitting the survey the answers will be compared to the other people who have participated in this the survey to see who is the closest match. The information given by the user will be added and storedadded to the existing "friends" database.
 
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+The matching is done by calculating the difference between all the surveys and matching the users with the closest results.
+
+### This app is hosted at:
+
+
+### Built with:
+
+* Node.js
+* Express
+
+
