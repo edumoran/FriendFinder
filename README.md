@@ -7,7 +7,7 @@ This app allows the user to take a short survey, After completing and submitting
 The friend matching is done by calculating the difference between all the surveys and matching the users with the closest results.
 
 ### This app is hosted at:
-
+* https://edumoran-friend-finder.herokuapp.com/
 
 ### Built with:
 
