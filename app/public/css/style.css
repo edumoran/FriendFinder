@@ -1,0 +1,119 @@
+html,
+body {
+    font-family: Roboto;
+    height: 100%;
+}
+
+body.home {
+    background: url('/images/cover-picture.jpg') center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.cover-heading {
+font-weight: bold;
+font-size: 3em;
+margin-top:10em;
+}
+
+#survey-button {
+    background-color: #c91f1f;
+    opacity: .7;
+    color: white;
+    border-color: #c91f1f !important;
+    border-radius: 5em;
+}
+
+#survey-button:hover {
+    background-color: rgb(201, 31, 31);
+    opacity: 1;
+}
+
+#survey-button:focus,
+#survey-button:active {
+    outline:none !important;
+    box-shadow: none !important;
+    background-color: #9e1a1a
+}
+
+body.home a,
+body.home a:focus,
+body.home a:hover {
+color: #fff;
+}
+
+h2 {
+    font-family: Roboto;
+}
+
+.jumbotron {
+    background: url('/images/survey-picture.jpg') center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    padding: 10rem;
+}
+
+.form-control {
+    background-color: white;
+    opacity: .5
+}
+
+.form-control:focus,
+.form-control:active {
+    outline:none !important;
+    box-shadow: none !important;
+    background-color: white;
+    opacity: .8;
+}
+
+.italic {
+    font-size:13px;
+    text-align: right;
+}
+
+label {
+    font-family: 'roboto', sans-serif;
+}
+
+.form-control {
+    padding:3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #c91f1f;
+    opacity: .7;
+    color: white;
+    border-color: #c91f1f !important;
+    border-radius: 5em;
+    margin-bottom:1em;
+}
+
+#submit:hover {
+    background-color: rgb(201, 31, 31);
+    opacity: 1;
+}
+
+#submit:focus,
+#submit:active {
+    outline:none !important;
+    box-shadow: none !important;
+    background-color: #9e1a1a
+}
+
+.mastfoot {
+    text-align: center;
+}
